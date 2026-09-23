@@ -13,7 +13,8 @@
     >
 
     <link rel="stylesheet" href="style.css">
-    <title>Conversor</title>
+    <script src="script.js" defer></script>
+    <title>Convert</title>
 </head>
 <body>
       <img src="assets/logo.svg" alt="logo">
@@ -21,19 +22,18 @@
      <main>
         <form >
             <label for="amount">Valor</label>
-            <input id="amount" type="text">
+            <input id="amount" type="text" placeholder="0">
             <label for="currency">Moeda</label>
             <select name="= moeda" id="currency" required>
                 <option value disabled selected hidden> Selecione a moeda</option>
                 <option value="USD">Dólar Americano</option>
                 <option value="EUR">Euro</option>
                 <option value="GBP">Libra Esterlina</option>
-                <button type="submit">Converter em Kwanzas</button>
             </select>
-            
+             <button type="submit">Converter em Kwanzas</button>
         </form>
         <footer>
-            <span id="description">US$ 1 = Kz </span>
+            <span id="description">US$ 1 = 917 Kz </span>
             <h1>34334,343 Kz</h1>
         </footer>
      </main>
